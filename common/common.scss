@@ -44,6 +44,49 @@ div#top-navbar-links a {
 }
 
 
+
+
+/* =======================
+   JS Main Navbar (top menu)
+   ======================= */
+
+
+.nav-link-container {
+  display: inline;
+}
+.nav-link-container  li {
+  display: inline-block;
+  float: right;
+}
+.nav-link-container  a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Open Sans';
+  line-height: 48px;
+  min-width: 90px;
+  font-size: 15px;
+  padding: 0 1em;
+}
+
+.d-header.clearfix {
+    background-color: #005B97;
+}
+
+.d-header .icons .icon {
+    float: right;
+    color: #fff;
+}
+
+.add-header-links {
+    float: left;
+    padding-left: 0;
+}
+
+.d-header .title a, .d-header .title a:visited{
+    color: #fff;
+}
+
 /* =======================
    Footer
    ======================= */

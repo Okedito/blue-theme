@@ -1,0 +1,47 @@
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+
+
+<script type="text/discourse-plugin" version="0.2">
+api.decorateWidget('home-logo:after', helper => {
+    const showExtraInfo = helper.attrs.minimized;
+        if(!showExtraInfo) {
+            return helper.h('ul.nav-link-container', [
+                helper.h('li', [
+                    helper.h('a.nav-link', {
+                        href:'https://www.blu-e.fr',
+                        text:'Blu.e',
+                        target:'_blank'
+                    })
+                ]),
+                helper.h('li.hidden-for-mobile', [
+                    helper.h('a.nav-link', {
+                        href:'https://share.blu-e.fr/c/general',
+                        text:'General',
+                        target:'_blank'
+                    })
+                ]),
+                helper.h('li.hidden-for-mobile', [
+                    helper.h('a.nav-link', {
+                        href:'https://share.blu-e.fr/c/experts',
+                        text:'Experts',
+                        target:'_self'
+                    })
+                ]),
+                helper.h('li.hidden-for-mobile', [
+                    helper.h('a.nav-link', {
+                        href:'https://share.blu-e.fr/c/best-practices',
+                        text:'Bonnes Pratiques',
+                        target:'_self'
+                    })
+                ]),
+                helper.h('li.hidden-for-mobile', [
+                    helper.h('a.nav-link', {
+                        href:'https://share.blu-e.fr/',
+                        text:'Home',
+                        target:'_self'
+                    })
+                ])
+            ]);
+        }
+});
+</script>
