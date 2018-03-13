@@ -10,7 +10,7 @@ body input, body button, body select, body textarea {
 /********** Nav Header **********/
 #top-navbar {
  height:44px;
- background-color:#7093b5;
+ background-color:#005B97;
  width:100%;
  z-index: 1001;
 }
@@ -41,4 +41,36 @@ div#top-navbar-links a {
 }
 #navbar-right a {
  padding-left: 20px;
+}
+
+
+/* =======================
+   Footer
+   ======================= */
+
+.container-fluid-footer {
+  margin: 0 0 0 0;
+}
+
+footer {
+  padding-bottom: 25px;
+  color: white;
+  white-space: nowrap;
+  background-color: #333;
+  padding: 11px 32px 20px 32px;
+  font-family: ClanWeb-Book;
+}
+
+footer .blu-e-sitemap {
+  height: 160px;
+}
+
+footer a, footer a:hover, footer a:visited {
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(210, 210, 210) !important;
+}
+
+footer .fa {
+  color: white !important;
 }
