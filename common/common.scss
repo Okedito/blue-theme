@@ -6,3 +6,39 @@ html {
 body input, body button, body select, body textarea {
     font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
+
+/********** Nav Header **********/
+#top-navbar {
+ height:44px;
+ background-color:#7093b5;
+ width:100%;
+ z-index: 1001;
+}
+div#top-navbar-links {
+ width:99%;
+ margin: 0 auto;
+ padding-top:5px;
+ max-width:1100px;
+}
+div#top-navbar-links a {
+ color:#FFFFFF;
+ font-size: 18px;
+ font-weight: lighter;
+}
+
+#navbar-left {
+ float: left;
+ margin-left: -15px;
+ padding-top: 8px;
+}
+#navbar-left a {
+ font-size: 20px;
+ padding-left: 20px;
+}
+#navbar-right {
+ float:right;
+ padding-top: 8px;
+}
+#navbar-right a {
+ padding-left: 20px;
+}
