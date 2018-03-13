@@ -47,6 +47,27 @@ div#top-navbar-links a {
 
 
 /* =======================
+   Banner
+   ======================= */
+
+#banner {
+border-radius: 0;
+box-shadow: none;
+background: url("https://discourse-cdn-sjc1.com/business/uploads/dreamfactory/original/1X/1fb8cead32ef94495edc8a93ffb087e16341cacd.png") no-repeat;
+padding: 20px;
+max-height: inherit;
+background-size: cover;
+background-color: rgba(255, 255, 255, .6);
+background-blend-mode: color;
+}
+#banner .close {
+ color: #fff;
+}
+#banner #banner-content h2 {
+ margin-bottom: 0.75em;
+}
+
+/* =======================
    JS Main Navbar (top menu)
    ======================= */
 
