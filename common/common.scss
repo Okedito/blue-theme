@@ -7,6 +7,21 @@ body input, body button, body select, body textarea {
     font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
 
+
+
+/********** Fonts **********/
+@font-face {
+  font-family: ClanWeb-Medium;
+  src: url("https://www.blu-e.fr/assets/fonts/ClanWeb-Medium.woff") format("woff");
+}
+
+
+@font-face {
+  font-family: ClanWeb-Book;
+  src: url("https://www.blu-e.fr/assets/fonts/ClanWeb-Book.woff") format("woff");
+}
+
+
 /********** Nav Header **********/
 #top-navbar {
  height:44px;
