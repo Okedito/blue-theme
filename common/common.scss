@@ -1,24 +1,23 @@
-//use Roboto font
-html {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-}
-body input, body button, body select, body textarea {
-    font-family: "Roboto", Helvetica, Arial, sans-serif;
-}
-
-
-
 /********** Fonts **********/
 @font-face {
-  font-family: ClanWeb-Medium;
+  font-family: "ClanWeb-Medium";
   src: url("https://www.blu-e.fr/assets/fonts/ClanWeb-Medium.woff") format("woff");
 }
 
 
 @font-face {
-  font-family: ClanWeb-Book;
-  src: url("https://www.blu-e.fr/assets/fonts/ClanWeb-Book.woff") format("woff");
+  font-family: "ClanWeb-Book";
+  src: url("https://share.blu-e.fr/uploads/default/original/1X/a5663b9454789e7e483862f65f39245d93305879.woff") format("woff");
+}
+
+
+//use Roboto font
+html {
+    font-family: "ClanWeb-Book", sans-serif;
+    font-weight: 400;
+}
+body input, body button, body select, body textarea {
+    font-family: "ClanWeb-Book", sans-serif;
 }
 
 
@@ -70,7 +69,7 @@ div#top-navbar-links a {
 #banner {
 border-radius: 0;
 box-shadow: none;
-background: url("https://discourse-cdn-sjc1.com/business/uploads/dreamfactory/original/1X/1fb8cead32ef94495edc8a93ffb087e16341cacd.png") no-repeat;
+background: url("https://share.blu-e.fr/uploads/default/optimized/1X/5f923c73d9c7c0fd6fa1dfb8ac425bfb840278d5_1_690x156.png") no-repeat;
 padding: 20px;
 max-height: inherit;
 background-size: cover;
@@ -78,7 +77,7 @@ background-color: rgba(255, 255, 255, .6);
 background-blend-mode: color;
 }
 #banner .close {
- color: #fff;
+ color: #00518C;
 }
 #banner #banner-content h2 {
  margin-bottom: 0.75em;
@@ -100,7 +99,6 @@ background-blend-mode: color;
   color: rgb(255, 255, 255);
   text-decoration: none;
   text-align: center;
-  font-family: 'Open Sans';
   line-height: 48px;
   min-width: 90px;
   font-size: 15px;
