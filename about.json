@@ -3,6 +3,18 @@
   "about_url": "https://meta.discourse.org/t/material-design-stock-theme/47142",
   "license_url": "https://github.com/discourse/material-design-stock-theme/blob/master/LICENSE.txt",
   "color_schemes": {
+    "Blu.e Colors": {
+      "primary": "212121",
+      "secondary": "fafafa",
+      "tertiary": "00AAFF",
+      "quaternary": "552382",
+      "header_background": "00518C",
+      "header_primary": "ffffff",
+      "highlight": "ffff8d",
+      "danger": "FFC300",
+      "success": "69AF23",
+      "love": "E10019"
+    },
     "Material Teal/Amber": {
       "primary": "212121",
       "secondary": "fafafa",
