@@ -158,3 +158,23 @@ footer a, footer a:hover, footer a:visited {
 footer .fa {
   color: white !important;
 }
+
+
+/****** Primary groups label ******/
+
+span.staff i:after {
+  content: "Staff";
+  display: inline-block;
+  background-color: #00518C;
+  font-family: ClanWeb-Book;
+  border-radius: 3px;
+  font-size: 0.9em;
+  font-weight: bold;
+  padding: 0.4em;
+  margin-left: 12px;
+  color: #fff;
+  text-transform: uppercase;
+}
+span.staff i:before {
+  display: none;
+}
