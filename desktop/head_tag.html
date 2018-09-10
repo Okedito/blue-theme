@@ -7,32 +7,38 @@ api.decorateWidget('home-logo:after', helper => {
     const showExtraInfo = helper.attrs.minimized;
         if(!showExtraInfo) {
             return helper.h('ul.nav-link-container', [
-
+                helper.h('li.hidden-for-mobile', [
+                    helper.h('a.nav-link', {
+                        href:'https://share.blu-e.fr/c/best-practices',
+                        text:'🔒ESPACE DE TRAVAIL',
+                        target:'_self'
+                    })
+                ]),
                 helper.h('li.hidden-for-mobile', [
                     helper.h('a.nav-link', {
                         href:'https://share.blu-e.fr/c/revue-collaborative-blu-e',
-                        text:'FACTOR.E',
+                        text:'LA REVUE FACTOR.E',
                         target:'_self'
                     })
                 ]),
                 helper.h('li.hidden-for-mobile', [
                     helper.h('a.nav-link', {
                         href:'https://share.blu-e.fr/c/experts',
-                        text:'EXPERTS',
+                        text:'LES EXPERTS',
                         target:'_self'
                     })
                 ]),
                 helper.h('li.hidden-for-mobile', [
                     helper.h('a.nav-link', {
-                        href:'https://share.blu-e.fr/c/best-practices',
-                        text:'BONNES PRATIQUES',
+                        href:'https://share.blu-e.fr/c/forum-entraide',
+                        text:'ENTRAIDE',
                         target:'_self'
                     })
                 ]),
                 helper.h('li.hidden-for-mobile', [
                     helper.h('a.nav-link', {
                         href:'https://share.blu-e.fr/c/general',
-                        text:'GENERAL',
+                        text:'DISCUSSIONS',
                         target:'_blank'
                     })
                 ])
