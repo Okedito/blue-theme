@@ -1,3 +1,7 @@
+#main-outlet {
+    padding-top: 122px;
+}
+
 //add space between categories
 .topic-list.categories {
   border-spacing: 0 1em;
@@ -150,14 +154,14 @@ button#new-account-link {
   z-index: 999;
   padding: 24px 20px 22px 5px;
   background-color: $tertiary;
-  color: $tertiary;
+  // color: $tertiary;
   white-space: nowrap;
   text-indent: 10px;
   -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
   -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
   overflow: hidden;
-  width: 63px;
+  width: 190px;
   height: 63px;
   -webkit-transition: right .5s, bottom .5s, border-radius .5s, text-indent .2s, visibility 1s, width .2s ease, height .5s ease .4s, color .5s, background-color 2s, -webkit-transform .5s;
   transition: right .5s, bottom .5s, border-radius .5s, text-indent .2s, visibility 1s, width .2s ease, height .5s ease .4s, color .5s, background-color 2s, transform .5s;

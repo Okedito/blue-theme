@@ -59,7 +59,10 @@ div#top-navbar-links a {
 
 
 .d-header #site-logo {
-    max-height: 50px;
+    max-height: 90px;
+}
+.d-header{
+  height: 7em;
 }
 
 /* =======================
@@ -94,6 +97,7 @@ background-blend-mode: color;
 .nav-link-container  li {
   display: inline-block;
   float: right;
+  padding-top: 25px;
 }
 .nav-link-container  a {
   color: rgb(255, 255, 255);
