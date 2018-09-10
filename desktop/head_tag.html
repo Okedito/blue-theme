@@ -10,15 +10,22 @@ api.decorateWidget('home-logo:after', helper => {
                 helper.h('li.hidden-for-mobile', [
                     helper.h('a.nav-link', {
                         href:'https://share.blu-e.fr/c/best-practices',
-                        text:'🔒ESPACE DE TRAVAIL',
+                        text:'🔒 ESPACE DE TRAVAIL',
                         target:'_self'
                     })
                 ]),
                 helper.h('li.hidden-for-mobile', [
                     helper.h('a.nav-link', {
-                        href:'https://share.blu-e.fr/c/revue-collaborative-blu-e',
-                        text:'LA REVUE FACTOR.E',
+                        href:'https://share.blu-e.fr/c/forum-entraide',
+                        text:'🔒 ENTRAIDE',
                         target:'_self'
+                    })
+                ]),
+                helper.h('li.hidden-for-mobile', [
+                    helper.h('a.nav-link', {
+                        href:'https://share.blu-e.fr/c/general',
+                        text:'🔒 DISCUSSIONS',
+                        target:'_blank'
                     })
                 ]),
                 helper.h('li.hidden-for-mobile', [
@@ -30,16 +37,9 @@ api.decorateWidget('home-logo:after', helper => {
                 ]),
                 helper.h('li.hidden-for-mobile', [
                     helper.h('a.nav-link', {
-                        href:'https://share.blu-e.fr/c/forum-entraide',
-                        text:'ENTRAIDE',
+                        href:'https://share.blu-e.fr/c/revue-collaborative-blu-e',
+                        text:'LA REVUE FACTOR.E',
                         target:'_self'
-                    })
-                ]),
-                helper.h('li.hidden-for-mobile', [
-                    helper.h('a.nav-link', {
-                        href:'https://share.blu-e.fr/c/general',
-                        text:'DISCUSSIONS',
-                        target:'_blank'
                     })
                 ])
             ]);
